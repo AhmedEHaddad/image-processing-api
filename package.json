@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write"
+    "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write",
+    "lint": "eslint \"./src/index.js\""
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   "devDependencies": {
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.1",
     "typescript": "^4.9.4"
   }

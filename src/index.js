@@ -9,7 +9,7 @@ const rl = readline_1.createInterface({
   // readable stream
   input: process.stdin,
   // writeable stream
-  output: process.stdout,
+  output: process.stdout
 });
 // Create questions for STDIN Input from console.
 const menuQ = () => {
@@ -158,4 +158,3 @@ const showMenu = async () => {
   const qMenu = await menuQ();
   return qMenu;
 };
-
