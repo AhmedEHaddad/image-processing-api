@@ -1,0 +1,27 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedEHaddad/image-processing-api.git"
+  },
+  "keywords": [],
+  "author": "Ahmad Haddad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedEHaddad/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/AhmedEHaddad/image-processing-api#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
