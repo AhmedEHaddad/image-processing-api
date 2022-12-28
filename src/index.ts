@@ -1,17 +1,15 @@
-let person;
-//eslint diable nxt line
-person = "Rory";
+import express from 'express';
 
+//const express = require('express');
 
-const buildPerson = (person: string) => {
-    return `your person is ${person}`;
-};
+const app = express();
+const port = 4000;
 
+app.get('/', (req, res) => {
+    res.send('Hello, world!');
+   });
 
-console.log(buildPerson(person));
+app.listen(port, ()=> {
+    console.log(`server started at localhost:${port}`)
+   });
 
-const myFunc = (num: number): number => {
-    return num * num;
-  };
-  
-export default myFunc;
